@@ -29,7 +29,7 @@ namespace Evdokimov.Models
                     Email = "evdokimov@sibnet.ru"
                 };
 
-                await _userManager.CreateAsync(user, "hyTR43wq@");
+                await _userManager.CreateAsync(user, "");
                 await _context.SaveChangesAsync();
 
             }
